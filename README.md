@@ -21,12 +21,11 @@ Technologies Used
 Project Structure
 --------------------------------------------------------
 
-HotelBookingSystem/
-├── HotelBookingSystem.API            → API layer (controllers, startup)
-├── HotelBookingSystem.Application    → Application logic (DTOs, interfaces)
-├── HotelBookingSystem.Domain         → Domain models and core logic
-├── HotelBookingSystem.Infrastructure → EF Core, configurations, repositories
-├── HotelBookingSystem.Tests          → Unit and integration tests
+- `HotelBookingSystem.API` – API layer (controllers, DI setup, entry point)
+- `HotelBookingSystem.Application` – Application logic (services, DTOs, interfaces)
+- `HotelBookingSystem.Domain` – Domain models, enums, and business rules
+- `HotelBookingSystem.Infrastructure` – EF Core context, Fluent API configs, repositories
+- `HotelBookingSystem.Tests` – Unit and integration tests 
 
 --------------------------------------------------------
 Prerequisites
